@@ -22,10 +22,10 @@ function facture(){
 function somme() {
     var a = parseFloat(document.getElementById("resultat1").textContent) || 0;
     var b = parseFloat(document.getElementById("resultat2").textContent) || 0;
+    var e = parseFloat(document.getElementById("resultat3").textContent) || 0;
+    var f = a + b;
 
-    var c = a + b;
-
-    document.getElementById("resultat4").textContent = c.toFixed(2);
+    document.getElementById("resultat4").textContent = f.toFixed(2);
 }
  
 function reinitialiser() {
